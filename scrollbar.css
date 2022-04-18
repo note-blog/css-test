@@ -1,0 +1,25 @@
+/* width */
+.scroller {
+    height: 100%;
+    overflow-y: scroll;
+    scrollbar-color: #aaa #f6f6f6;
+    scrollbar-width: thin;
+  }
+.scroller::-webkit-scrollbar{
+    width: 10px;
+}
+  
+  /* Track */
+  .scroller::-webkit-scrollbar-track {
+    background: #f6f6f6; 
+  }
+   
+  /* Handle */
+  .scroller::-webkit-scrollbar-thumb {
+    background: #aaa; 
+  }
+  
+  /* Handle on hover */
+  .scroller::-webkit-scrollbar-thumb:hover {
+    background: #888; 
+  }

@@ -1,28 +1,45 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title></title>
+        <link rel="stylesheet" type="text/css" href="./gkb.css">
+        <link rel="stylesheet" type="text/css" href="./scrollbar.css">
     </head>
     <body>
-        <header id="header">hello world</header>
+        <div style="height:2.5rem;">
+            <header id="header">hello world</header>
+        </div>
+        <div class="body">
+            <div class="nav scroller">
+                <div style="width:calc(100% - 2rem);margin:1rem;word-wrap: break-word;">
+                    hello
+                    <div style="height:200px">fdsfdsfddddddddddddddddddddddddddddddddddddddddddddddddd</div>
+                    
+                </div>
+                
+            </div>
+            <div class="content scroller">
+                hello
+                fdsfdsfdsds
+                fdsfdsfdsdsfds
+                fdsfds
+                <div style="height:200px">fdsfdsf</div>
+                <div style="height:200px">fdsfdsf</div>
+                <div style="height:200px">fdsfdsf</div>
+                <div style="height:200px">fdsfdsf</div>
+                <div style="height:200px">fdsfdsf</div>
+                <div style="height:200px">fdsfdsf</div>
+                <div style="height:200px">fdsfdsf</div>
+            </div>
+            
+        </div>
+        <div style="height:2rem"><div class="foot">
+            toolbar, status bar, copyright message and so on
+        </div></div>
     </body>
 
     <style>
-        html, body{
-            font-size:14px;
-            margin:0px;
-            padding:0px;
-        }
-        *{
-            padding:0px;
-        }
-        header {
-            font-size:3rem;
-            color:#fff;
-            background-color: blueviolet;
-            line-height:100%;
-            padding:.5rem;
-            height:15rem;
-        }
+        
     </style>
     <script>
         console.log(document.getElementById("header").clientHeight);
