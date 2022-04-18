@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="./gkb.css">
+    </head>
+    <body>
+        <div class="nav">
+            hello world
+        </div>
+        <div class="content">
+        <div style="border:1px solid #000;height:40px;" contenteditable="false">
+            <span>*</span>
+            <span id="a" style="display:inline-block;color:red"  >aaa</span>
+            <span id="a" style="display:inline-block;font-size:24px;">aaa</span>
+        </div>
+        <div id="b">ddd</div>
+        <ul contenteditable="false">
+            <li>ffdfdsd</li>
+            <li>ffdfdsd</li>
+            
+                <ul  contenteditable="false">
+                    <li>fsfdsfds</li>
+                    <li>fsfdsfds</li>
+                </ul>
+            
+        </ul>
+        <pre contenteditable="false">fsfdsfd</pre>
+        <table    contenteditable="false" style="width:100%;">
+            <tr>
+                <td>ffdsfds</td>
+                <td>ffdsfds</td>
+                <td>ffdsfds</td>
+            </tr>
+        </table>
+        <ol>
+            <li contenteditable="false">fdsfds</li>
+            <li contenteditable="false">hghfh</li>
+            <li contenteditable="false">gfdgfd</li>
+            <li contenteditable="false"><strong>fsfdsdf</strong></li>
+        </ol>
+        <br />
+        <div id="aa"></div>
+        <button onclick="addElement()">submit</button>
+        <div id="bb">&bull; &diams;</div>
+        <div contenteditable="false">
+            <pre><a href="">fddfdfs</a>hello owrld</pre>
+            <table style="word-wrap:break-word;word-break:break-all;">
+                <tr>
+                    
+                    <td>hello world</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div style="border-left:1px solid #ddd;width:100%;height:100%;padding-left:2px;margin-left:2px;">
+                            dsfdf
+                            dsfdf    dsfdf    dsfdf
+                            dsfdf    dsfdf    dsfdf
+                            dsfdf
+                        </div>
+                    </td>
+                </tr>
+                </table>
+        </div>
+        <a style="width:200px;background-color:blue">fdfdddddddddddddddd
+            ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd</a>
+        <div id="boder_width" style="width:200px;height:100px;margin:2px;border:2px solid #000;padding:2px;">
+            hello
+
+        </div>
+        <p style="width:200px;height:118px;overflow:hidden;">bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</p>
+        <table style="border:1px solid #000;border-collapse: collapse;">
+            <tr>
+                <td style="border:1px solid #000;">sss</td>
+                <td style="border:1px solid #000;">sss</td>
+            </tr>
+        </table>
+        <div style="height:200px"></div>
+    </div>
+    </body>
+
+    <style>
+        ol li{
+            list-style-type:none;
+        }
+        .bg{
+            background-color:red;
+            margin-top:20px;
+        }
+        .light{
+            color:white;
+        }
+        td::before{
+            content: "\2022";
+        }
+    </style>
+    <script>
+        function addElement(){
+            el = document.getElementById("aa")
+            el.className = "bg light"
+            el.innerHTML = "hello"
+            console.log(el.classList)
+            console.log(el.clientTop)
+            console.log(el.tagName)
+            el2 = document.getElementById("bb")
+            el2.remove()
+            el3 = document.getElementById("boder_width")
+            console.log(el3.clientWidth)
+            console.log(el3.offsetWidth)
+        }
+    </script>
+</html>

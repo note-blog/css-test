@@ -1,0 +1,27 @@
+html, body{
+    padding:0;
+    margin:0;
+    border:none;
+    font-size:14px;
+    list-style-type: none;
+    height: 100vh;
+    width:100%;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    overflow: hidden !important;
+}
+body::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* Disable scrollbar Chrome/Safari/Webkit */
+  }
+.nav{
+    float:left;
+    width:20%;
+    height:100%;
+}
+.content{
+    float:left;
+    width:80%;
+    height:100%;
+    overflow-y: auto;
+}
