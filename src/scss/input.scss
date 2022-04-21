@@ -1,0 +1,53 @@
+.input[type=text]{
+    box-sizing: border-box;
+    height: 2rem;
+    line-height:100%;
+    font-size:1rem;
+    padding-left:.5rem;
+    padding-right:.5rem;
+    min-width:10rem;
+    width: 100%;
+    border: 1px solid #aaa;
+    border-radius: .25rem .25rem .25rem .25rem;
+    margin-top: 2px;
+    margin-bottom:2px;
+    &:focus{
+      border: 1px solid blue;
+      box-shadow: 1px 1px #bbb inset;
+    }
+    &::after{
+      content:"6"
+    }
+}
+.input_modal{
+  height: calc(4rem + 10px);
+}
+label {
+  display:block;
+  height:1.2rem;
+  font-weight: bolder;
+}
+//input has five element: tag: input, message, border-status, short-msg
+.s-msg{
+  margin-top:2px;
+  margin-bottom:2px;
+  width:2rem;
+  height:2rem;
+  line-height: 2rem;
+  text-align: center;
+  display: inline-block;
+  border:none;
+  box-sizing: border-box;
+}
+.input-msg{
+  display: block;
+  font-size:.8rem;
+  margin-bottom:2px;
+}
+
+.input_flex{
+  display: flex;
+}
+section>nav:nth-of-type(1){
+  width: calc(100% - 2rem)
+}

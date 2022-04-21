@@ -1,10 +1,11 @@
 $table_border_color: #aaa;
 html, body, div{
-    font-size:14px;
+    font-size:16px;
     display:block;
     margin:0;
     padding:0;
-  }
+    box-sizing: content-box;
+}
   //address各个浏览器保持一致
 address {
     display: block;
@@ -178,7 +179,9 @@ base, basefont, datalist, head, link, meta, noembed,
  noframes, param, rp, script, style, template, title {
     display: none;
  }
- 
+input {
+    outline:none;
+}
 
 [dir=rtl] dd {
 	margin: 0 40px 0 0;
@@ -274,6 +277,7 @@ hr {
     margin-inline-end: auto;
     border-style: inset;
     border-width: 1px;
+    box-sizing: content-box;
 }
 
 iframe {
