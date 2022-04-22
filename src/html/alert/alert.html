@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="../../../dist/css/index.css">
+    </head>
+    <body>
+        <span class="success_msg" id="show_msg">这个是一个消息提示</span>
+        hello world
+    </body>
+
+    
+    <script>
+            window.onload = function(){
+                document.getElementById("show_msg").classList.add("show_top")
+                document.getElementById("show_msg").addEventListener("click",function(){
+                    this.remove();
+                })
+            }
+    </script>
+</html>

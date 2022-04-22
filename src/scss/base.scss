@@ -1,10 +1,18 @@
 $table_border_color: #aaa;
-html, body, div{
+html, body {
     font-size:16px;
     display:block;
     margin:0;
     padding:0;
     box-sizing: content-box;
+    height: 100%;
+}
+div {
+    font-size:16px;
+    display:block;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
   //address各个浏览器保持一致
 address {
@@ -402,12 +410,8 @@ section {
 }
 
 select {
-	border-width: 2px;
 	color: #000;
 	font-family: use-lang-def;
-	font-size: 13px;
-	font-weight: 400;
-	padding: 1px;
 	text-align: default;
 	text-indent: 0;
 }
