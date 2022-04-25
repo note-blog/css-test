@@ -1,0 +1,141 @@
+.btn-primary {
+    @extend .btn;
+    @extend .btn-size-mini;
+    @extend .btn-color-blue;
+    
+    
+    @extend .btn-disabled;
+}
+
+.btn-secondary {
+    @extend .btn;
+    @extend .btn-size-mini;
+    @extend .btn-color-gray;
+    
+    
+    @extend .btn-disabled;
+}
+
+.btn-success {
+    @extend .btn;
+    @extend .btn-size-mini;
+    @extend .btn-color-green;
+    
+    
+    @extend .btn-disabled;
+}
+
+.btn-danger {
+    @extend .btn;
+    @extend .btn-size-mini;
+    @extend .btn-color-red;
+    
+    
+    @extend .btn-disabled;
+}
+.btn-warning{
+    @extend .btn;
+    @extend .btn-size-mini;
+    @extend .btn-color-yellow;
+    
+    
+    @extend .btn-disabled;
+}
+
+.btn-info{
+    @extend .btn;
+    @extend .btn-size-mini;
+    @extend .btn-color-darkblue;
+    
+    
+    @extend .btn-disabled;
+}
+
+
+
+.btn-light{
+    @extend .btn;
+    @extend .btn-size-mini;
+    @extend .btn-color-light;
+    
+    
+    @extend .btn-disabled;
+}
+.btn-dark{
+    @extend .btn;
+    @extend .btn-size-mini;
+    @extend .btn-color-black;
+    
+    
+    @extend .btn-disabled;
+}
+
+.btn-outline-primary {
+    @extend .btn;
+    @extend .btn-size-mini;
+    @extend .btn-outline-blue;
+    
+    
+    @extend .btn-disabled;
+}
+
+.btn-outline-secondary {
+    @extend .btn;
+    @extend .btn-size-mini;
+    @extend .btn-outline-gray;
+    
+    
+    @extend .btn-disabled;
+}
+
+.btn-outline-success {
+    @extend .btn;
+    @extend .btn-size-mini;
+    @extend .btn-outline-green;
+    
+    
+    @extend .btn-disabled;
+}
+
+.btn-outline-danger {
+    @extend .btn;
+    @extend .btn-size-mini;
+    @extend .btn-outline-red;
+    
+    
+    @extend .btn-disabled;
+}
+.btn-outline-warning{
+    @extend .btn;
+    @extend .btn-size-mini;
+    @extend .btn-outline-yellow;
+    
+    
+    @extend .btn-disabled;
+}
+
+.btn-outline-info{
+    @extend .btn;
+    @extend .btn-size-mini;
+    @extend .btn-outline-darkblue;
+    
+    
+    @extend .btn-disabled;
+}
+
+
+.btn-outline-light{
+    @extend .btn;
+    @extend .btn-size-mini;
+    @extend .btn-outline-light;
+    @extend .btn-disabled;
+}
+.btn-outline-dark{
+    @extend .btn;
+    @extend .btn-size-mini;
+    @extend .btn-outline-black;
+    
+    
+    @extend .btn-disabled;
+}
+

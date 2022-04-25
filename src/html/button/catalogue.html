@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="../../../dist/css/index.css">
+    </head>
+    <body>
+        <div style="height:100%;"><!-- 用户定义-->
+        <div class="btn-catalogue-parent" style="width:200px;">
+            <div id="open" class="btn-catalogue">
+                <button class="block blue_btn">一级按钮</button>
+                <button class="block transparent_btn">一级按钮</button>
+                <button class="block transparent_btn">一级按钮</button>
+            </div>
+            <div class="btn-catalogue">
+                <button class="block blue_btn">一级按钮</button>
+                <button class="block transparent_btn">一级按钮</button>
+                <button class="block transparent_btn">一级按钮</button>
+            </div>
+            <div class="btn-catalogue">
+                <button class="block blue_btn">一级按钮</button>
+                <button class="block transparent_btn">一级按钮</button>
+                <button class="block transparent_btn">一级按钮</button>
+            </div>
+            <div class="btn-catalogue">
+                <button class="block blue_btn">一级按钮</button>
+                <button class="block transparent_btn">一级按钮</button>
+                <button class="block transparent_btn">一级按钮</button>
+            </div>
+            <div class="btn-catalogue">
+                <button class="block blue_btn">一级按钮</button>
+                <button class="block transparent_btn">一级按钮</button>
+                <button class="block transparent_btn">一级按钮</button>
+            </div>
+            <div class="btn-catalogue">
+                <button class="block blue_btn">一级按钮</button>
+                <button class="block transparent_btn">一级按钮</button>
+                <button class="block transparent_btn">一级按钮</button>
+            </div>
+            <div class="btn-catalogue">
+                <button class="block blue_btn">一级按钮</button>
+                <button class="block transparent_btn">一级按钮</button>
+                <button class="block transparent_btn">一级按钮</button>
+            </div>
+            <div class="btn-catalogue">
+                <button class="block blue_btn">一级按钮</button>
+                <button class="block transparent_btn">一级按钮</button>
+                <button class="block transparent_btn">一级按钮</button>
+            </div>
+        </div>
+        
+        </div>
+    </body>
+
+    
+    <script>
+        window.onload = function(){
+            document.getElementById("open").addEventListener("click",function(){
+                element = document.getElementById("open").children
+                for(var i=0;i<element.length;i++){
+                    element[i].classList.add("visible")
+                }
+            })
+            
+        }            
+    </script>
+</html>

@@ -1,6 +1,19 @@
+
 $table_border_color: #aaa;
+$border_size: 1px;
+$font-size: 16px;
+$border_color: #aaa;
+$blue: #007bff;
+$gray: #6c757d;
+$green: #28a745;
+$red: #c82333;
+$yellow: #e0a800;
+$darkblue: #17a2b8;
+$white: #fffeff;
+$light: #f8f9fa;
+$black: #23272b;
 html, body {
-    font-size:16px;
+    font-size:$font-size;
     display:block;
     margin:0;
     padding:0;
@@ -8,7 +21,7 @@ html, body {
     height: 100%;
 }
 div {
-    font-size:16px;
+    font-size:1rem;
     display:block;
     margin:0;
     padding:0;
@@ -330,6 +343,7 @@ menu {
     margin-block-end: 1em;
     padding-inline-start: 40px;
 }
+
 
 meta {
 	display: none;

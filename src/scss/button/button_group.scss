@@ -1,0 +1,26 @@
+//group-base-button
+//横向按钮组,button换行会产生空格,font-size:0解决
+.btn-group-inline{
+    display:flex;
+    box-sizing:border-box;
+    font-size:0;
+    padding-left:5px;
+    border:none;
+    &>button:not(:first-child){
+        border-left:1px solid $white !important;
+    }
+    &>button:first-child{
+        border-radius: .2rem 0 0 .2rem;
+    }
+    &>button:last-child{
+        border-radius: 0 .2rem .2rem 0;
+    }
+}
+
+.btn-page-inline{
+    position:flex;
+    &>span{
+        width:3rem;
+        height:inherit;
+    }
+}

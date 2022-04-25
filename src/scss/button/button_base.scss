@@ -1,0 +1,382 @@
+.btn {
+
+    letter-spacing: .1rem;
+    display: inline-block;
+    box-sizing: border-box;
+
+    height: 2rem;
+    line-height: 1rem;
+    font-size: 1rem;
+    padding:.5rem;
+    text-align: center;
+    letter-spacing: .2rem;
+    border: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    &:hover{
+        cursor:pointer;
+    }
+}
+
+.btn-size-mini{
+    height: 1.6rem !important;
+    line-height: .8rem !important;
+    font-size: .8rem !important;
+    padding:.4rem !important;
+    letter-spacing: .1rem !important;
+}
+.btn-pill-mini{
+    border-radius: .8rem;
+}
+.btn-pill{
+    border-radius: 1rem;
+}
+.btn-size-big{
+    height: 2.4rem !important;
+    line-height: 1.2rem !important;
+    font-size: 1.2rem !important;
+    padding:.6rem !important;
+    letter-spacing: .3rem !important;
+}
+.btn-pill-big{
+    border-radius: 1.2rem;
+}
+.btn-size-large{
+    height: 2.8rem !important;
+    line-height: 1.4rem !important;
+    font-size: 1.4rem !important;
+    padding:.7rem 1.4rem !important;
+    letter-spacing: .4rem !important;
+}
+.btn-pill-large{
+    border-radius: 1.4rem;
+}
+
+.btn-color-blue{
+    background-color: $blue;
+    color: $white;
+    &:hover{
+        background-color:  color.scale($blue, $lightness: 10%);
+    }
+    &:active{
+        background-color:  color.scale($blue, $blackness: 20%);
+    }
+    &:disabled{
+        background-color:  color.scale($blue, $blackness: 50%);
+    }
+}
+
+.btn-color-gray{
+    background-color: $gray;
+    color: $white;
+    &:hover{
+        background-color:  color.scale($gray, $lightness: 10%);
+    }
+    &:active{
+        background-color:  color.scale($gray, $blackness: 20%);
+    }
+    &:disabled{
+        background-color:  color.scale($gray, $blackness: 50%);
+    }
+}
+
+.btn-color-green{
+    background-color: $green;
+    color: $white;
+    &:hover{
+        background-color:  color.scale($green, $lightness: 10%);
+    }
+    &:active{
+        background-color:  color.scale($green, $blackness: 20%);
+    }
+    &:green{
+        background-color:  color.scale($green, $blackness: 50%);
+    }
+}
+.btn-color-red{
+    background-color: $red;
+    color: $white;
+    &:hover{
+        background-color:  color.scale($red, $lightness: 10%);
+    }
+    &:active{
+        background-color:  color.scale($red, $blackness: 20%);
+    }
+    &:disabled{
+        background-color:  color.scale($red, $blackness: 50%);
+    }
+}
+
+
+
+.btn-color-yellow{
+    background-color: $yellow;
+    color: $white;
+    &:hover{
+        background-color:  color.scale($yellow, $lightness: 10%);
+    }
+    &:active{
+        background-color:  color.scale($yellow, $blackness: 20%);
+    }
+    &:disabled{
+        background-color:  color.scale($yellow, $blackness: 50%);
+    }
+}
+
+.btn-color-darkblue{
+    background-color: $darkblue;
+    color: $white;
+    &:hover{
+        background-color:  color.scale($darkblue, $lightness: 10%);
+    }
+    &:active{
+        background-color:  color.scale($darkblue, $blackness: 20%);
+    }
+    &:disabled{
+        background-color:  color.scale($darkblue, $blackness: 50%);
+    }
+}
+
+.btn-color-light{
+    background-color: $light;
+    color: $black;
+    &:hover{
+        background-color:  color.scale($light, $lightness: 10%);
+    }
+    &:active{
+        background-color:  color.scale($light, $blackness: 20%);
+    }
+    &:disabled{
+        background-color:  color.scale($light, $blackness: 50%);
+        
+    }
+}
+
+.btn-color-black{
+    background-color: $black;
+    color: $light;
+    &:hover{
+        background-color:  color.scale($black, $lightness: 10%);
+    }
+    &:active{
+        background-color:  color.scale($black, $blackness: 20%);
+    }
+    &:disabled{
+        background-color:  color.scale($black, $blackness: 50%);
+    }
+}
+
+
+.btn-outline-blue {
+    background-color: transparent;
+    border:1px solid $blue;
+    color: $black;
+    &:hover{
+        background-color:  color.scale($light, $lightness: 10%);
+    }
+    &:active{
+        background-color:  color.scale($light, $blackness: 20%);
+    }
+    &:disabled{
+        background-color:  color.scale($light, $blackness: 50%);
+    }
+}
+.btn-outline-gray {
+    background-color: transparent;
+    border:1px solid $gray;
+    color: $black;
+    &:hover{
+        background-color:  color.scale($light, $lightness: 10%);
+    }
+    &:active{
+        background-color:  color.scale($light, $blackness: 20%);
+    }
+    &:disabled{
+        background-color:  color.scale($light, $blackness: 50%);
+    }
+}
+
+.btn-outline-green {
+    background-color:transparent;
+    border:1px solid $green;
+    color: $black;
+    &:hover{
+        background-color:  color.scale($light, $lightness: 10%);
+    }
+    &:active{
+        background-color:  color.scale($light, $blackness: 20%);
+    }
+    &:disabled{
+        background-color:  color.scale($light, $blackness: 50%);
+    }
+}
+
+.btn-outline-red {
+    background-color:transparent;
+    border:1px solid $red;
+    color: $black;
+    &:hover{
+        background-color:  color.scale($light, $lightness: 10%);
+    }
+    &:active{
+        background-color:  color.scale($light, $blackness: 20%);
+    }
+    &:disabled{
+        background-color:  color.scale($light, $blackness: 50%);
+    }
+}
+
+.btn-outline-yellow {
+    background-color:transparent;
+    border:1px solid $yellow;
+    color: $black;
+    &:hover{
+        background-color:  color.scale($light, $lightness: 10%);
+    }
+    &:active{
+        background-color:  color.scale($light, $blackness: 20%);
+    }
+    &:disabled{
+        background-color:  color.scale($light, $blackness: 50%);
+    }
+}
+
+.btn-outline-darkblue {
+    background-color:transparent;
+    border:1px solid $darkblue;
+    color: $black;
+    &:hover{
+        background-color:  color.scale($light, $lightness: 10%);
+    }
+    &:active{
+        background-color:  color.scale($light, $blackness: 20%);
+    }
+    &:disabled{
+        background-color:  color.scale($light, $blackness: 50%);
+    }
+}
+
+.btn-outline-black {
+    background-color:transparent;
+    border:1px solid $black;
+    color: $black;
+    &:hover{
+        background-color:  color.scale($light, $lightness: 10%);
+    }
+    &:active{
+        background-color:  color.scale($light, $blackness: 20%);
+    }
+    &:disabled{
+        background-color:  color.scale($light, $blackness: 50%);
+    }
+}
+
+
+.btn-shadow{
+    box-shadow: 0px 1px 8px 1px rgba(0, 0, 0, 0.2);
+    &:hover{
+        box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    }
+}
+
+.btn-border{
+    border:1px solid transparent;
+}
+
+.btn-disabled{
+    &:disabled{
+        cursor:not-allowed;
+    }
+}
+
+.btn-square{
+    width:2rem;
+    height:2rem;
+    text-align: center;
+}
+
+.btn-square-mini{
+    height:1.6rem;
+    width:1.6rem;
+    padding:.4rem !important;
+    text-align: center;
+}
+
+.btn-square-big{
+    width:2.4rem;
+    height:2.8rem;
+    font-size:1.2rem;
+    padding:.6rem !important;
+    text-align: center;
+}
+
+.btn-square-large{
+    width:2.8rem;
+    height:2.8rem;
+    font-size:1.4rem;
+    padding:.7rem !important;
+    text-align: center;
+}
+
+.btn-cicle{
+    border-radius: 100%;
+}
+.btn-active{
+    -webkit-filter: brightness(150%); /* Chrome, Safari, Opera */
+    filter: brightness(150%);
+}
+
+.btn-rounded{
+    border-radius: .2rem;
+}
+
+.btn-block{
+    width:100%;
+}
+
+
+.btn-group-parent{
+    display:flex;
+}
+.btn-group{
+    box-shadow: none !important;
+    
+    &:hover{
+        box-shadow: none !important;
+    }
+    &:active{
+        box-shadow: none !important;
+    }
+
+    &:first-child {
+        border-radius: .5rem 0 0 .5rem;
+
+    }
+    &:last-child {
+        border-radius: 0 .5rem .5rem 0;
+    }
+    &:not(first-child){
+        border-left:1px solid #aaa;
+    }
+    &:not(last-child){
+        border-right:1px solid #aaa;
+    }
+}
+
+.btn-catalogue-parent{
+    height:inherit;
+    background-color: $white;
+    border:1px solid #aaa;
+}
+.btn-catalogue{
+    border-bottom: 1px solid #aaa;
+    &>button:not(:first-child){
+        display: none;
+    }
+}
+
+.visible{
+    display: block !important;
+}
+//button group需要使用em单位。在少量button-group中，区别定义各个button。
